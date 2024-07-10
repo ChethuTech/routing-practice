@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.app-container {
+  border: #6d396b 4px solid;
+  border-radius: 15px;
+  margin: 5vw;
+  min-height: 80vh;
+}
+@media screen and (max-width: 768px) {
+  .app-container {
+    height: 95vh;
+  }
+}
